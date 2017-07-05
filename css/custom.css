@@ -1,0 +1,65 @@
+/* your styles go here */
+
+.services-heading {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.navbar-brand{
+  padding-top: 15px;
+  font-size: 50px;
+  font-family: Lobster;
+}
+
+.btn-started{
+  color: #fff;
+  background-color: #ff7473;
+  border-color: #ff7473;
+}
+
+.btn-change{
+  color: #fff;
+  background-color: #41a6ca;
+  border-color: #41a6ca;
+
+}
+
+.btn-given{
+  color: #fff;
+  background-color: #02b875;
+  border-color: #02b875;
+}
+
+.btn-request{
+  color: #fff;
+  background-color: #f69856;
+  border-color: #f69856;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus,
+.btn-ghost:active,
+.btn-ghost.active,
+.open .dropdown-toggle.btn-ghost {
+  color: #ff7473;
+  background-color: transparent;
+  border-color: #ff7473;
+}
+
+#intro{
+  padding-bottom: 90px;
+}
+
+
+.thumbnail p {
+  margin: 0 0 0px;
+}
+
+#cambia{
+	background: url('../img/banner-cambia.jpg') no-repeat;
+	background-size: cover;
+	margin-bottom: -3px;
+}
