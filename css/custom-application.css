@@ -1,3 +1,21 @@
+.actions{
+  padding: 20px;
+}
+
+#productMain .jumbotron p{
+  font-size: 14px
+}
+
+#productMain .jumbotron{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#details{
+  padding-top: 20px;
+  padding: 20px;
+}
+
 #productMain {
   margin-bottom: 30px;
 }
