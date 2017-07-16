@@ -8,12 +8,6 @@
   color: #999999;
 }
 
-.navbar-brand{
-  padding-top: 15px;
-  font-size: 50px;
-  font-family: Lobster;
-}
-
 .btn-started{
   color: #fff;
   background-color: #ff7473;
@@ -53,12 +47,11 @@
   padding-bottom: 90px;
 }
 
-
 .thumbnail p {
   margin: 0 0 0px;
 }
 
-#cambia{
+#cambia {
 	background: url('../img/banner-cambia.jpg') no-repeat;
 	background-size: cover;
 	margin-bottom: -3px;

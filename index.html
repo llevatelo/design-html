@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1.0">
-    
+
     <meta name="robots" content="all,follow">
     <!-- Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,10 +23,10 @@
     <!-- owl carousel-->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
-    <!-- plugins-->
-    <link rel="stylesheet" href="css/simpletextrotator">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/banner.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon2.png">
     <!-- Tweaks for older IEs-->
@@ -37,38 +37,33 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#navigation" data-offset="120">
+<body>
     <div id="all">
         <!-- navbar-->
-        <header class="header">
-            <div role="navigation" class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a href="#all" class="navbar-brand scroll-to">
-                            <span class="sr-only">Go to homepage</span>
-                        </a>
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">llevatelo.co</a>
+        </div>
 
-                        <div class="navbar-buttons">
-                            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menú<i class="fa fa-bars" aria-hidden="true"></i></button>
-                        </div>
-
-                        <h2><a class="navbar-brand" href="#">llevatelo.co</a></h2>
-                    </div>
-                    <div id="navigation" class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <!-- <li><a href="#regalo" class="scroll-to">Regala <i class="fa fa-gift fa-lg" aria-hidden="true"></i></a></li>
-                <li><a href="#Cambia" class="scroll-to">Intercambia<i class="fa fa-handshake-o fa-lg" aria-hidden="true"></i></a></li> -->
-                            <li><a href="#caracteristicas" class="scroll-to">Caracteristicas</a></li>
-                            <li><a href="#Normas" class="scroll-to">Ayuda</a></li>
-                        </ul>
-
-                        <a href="#" class="btn navbar-btn btn-ghost btn-sign-in">Ingresar</a>
-                        <a href="#" class="btn navbar-btn btn-ghost btn-started">Comienza</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class ="link scroll-to" href="#caracteristicas">Caracteristicas</a></li>
+            <li><a class ="link scroll-to"  href="#contacto">Contacto</a></li>
+            <li><a  href="#" class="btn navbar-btn btn-ghost btn-sign-in">Ingresar</a></li>
+            <li><a href="#" class="btn navbar-btn btn-ghost btn-started">Comienza</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
         <!-- *** Seccion de entrada***-->
         <section id="intro" class="text-intro no-padding-bottom">
             <div class="dark-mask"></div>
@@ -92,7 +87,6 @@
                 </div>
             </div>
         </section>
-
         <!--   *** Secciones de Navegación -->
 
         <section id="regalo" class="section background-gray-lightest">
@@ -176,7 +170,7 @@
                             <figure class="alert alert-danger btn-change" style="margin-bottom: 0px; padding:5px;">Cambia</figure>
                             <div class="caption">
                                 <p>
-                                    <a class="asset-link-location">Bogota</a> <a href="#" class="btn btn-default"><b>Mas Info</b></a>
+                                  <a class="asset-link-location">Bogota</a> <a href="/shop-detail.html" class="btn btn-default"><b>Mas Info</b></a>
                                 </p>
                             </div>
 
@@ -258,8 +252,46 @@
                 <!-- col-lg-4 -->
             </div>
             <!-- row -->
+        </section>
+        <!-- section -->
 
+        <!--   *** Secciones de Navegación -->
 
+        <section id="contacto"  class="section background-gray-lightest">
+          <div class="container">
+            <div class="row text-center">
+              <h2>Contacto </h2>
+              <form>
+                              <div class="row">
+                                  <div class="col-sm-6">
+                                      <div class="form-group">
+                                          <label for="firstname">Nombres</label>
+                                          <input type="text" class="form-control" id="firstname">
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                      <div class="form-group">
+                                          <label for="email">Email</label>
+                                          <input type="text" class="form-control" id="email">
+                                      </div>
+                                  </div>
+
+                                  <div class="col-sm-12">
+                                      <div class="form-group">
+                                          <label for="message">Mensaje</label>
+                                          <textarea id="message" class="form-control"></textarea>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-sm-12 text-center">
+                                      <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i> Send message</button>
+
+                                  </div>
+                              </div>
+                              <!-- /.row -->
+                          </form>
+            </div>
+          </div>
         </section>
         <!-- section -->
 
