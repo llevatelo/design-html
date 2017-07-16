@@ -2,6 +2,10 @@
   padding: 20px;
 }
 
+.sp-wrap{
+  float: none;
+}
+
 #productMain .jumbotron p{
   font-size: 14px
 }
